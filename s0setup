@@ -1,0 +1,8 @@
+# DevTool Install
+sudo apt-get install -y git
+
+# VPN
+git clone https://github.com/mr3m/serverside.git
+cd serverside
+chmod 777 voodoo-vpn.sh 
+sudo ./voodoo-vpn
